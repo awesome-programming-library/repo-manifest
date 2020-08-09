@@ -2,7 +2,7 @@
 <manifest>
 
 	<remote name="origin" fetch="https://github.com/awesome-programming-library/" />
-	<default revision="master" remote="library_remote" sync-j="4" />
+	<default revision="master" remote="origin" sync-j="4" />
 	
 	<project path="java" name="java" />
 	<project path="c" name="c" />
