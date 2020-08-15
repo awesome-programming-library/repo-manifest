@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="origin" fetch="git://github.com/awesome-programming-library/" />
+	<remote name="origin" fetch="https://github.com/awesome-programming-library/" />
 	<default revision="master" remote="origin" sync-j="4" />
 	
-	<project path="java" name="java" />
+	<project path="arm" name="arm"/>
 	<project path="c" name="c" />
 	<project path="cpp" name="cpp"/>
+	<project path="linux" name="linux"/>
+	<project path="git" name="git"/>
+	<project path="java" name="java" />
 </manifest>
